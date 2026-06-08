@@ -1,0 +1,13 @@
+p {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.5em;
+  font-weight: 900;
+  font-style: normal;
+
+  text-align: left;
+  text-decoration: none;
+  text-transform: lowercase;
+  text-shadow: -4px 1px 0px rgba(78, 73, 38, 0.77);
+}
