@@ -1,0 +1,9 @@
+.maindiv {
+    border: 5px solid black;
+    height: 100vh;
+}
+
+.left, .right{
+    border: 2px solid;
+    height: 100vh;
+}
