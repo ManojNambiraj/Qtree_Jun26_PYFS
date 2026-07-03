@@ -5,7 +5,7 @@
 // console.log(ele);
 
 // ele.innerText = "Good evening"
-// ele.innerHTML = "<h1>Good</h1>"
+// ele.innerHTML = "<p>Good</p>"
 
 // let ele1 = document.getElementsByClassName("para")
 
@@ -16,41 +16,60 @@
 // ele1[0].innerText = "hello"
 // ele1[1].innerText = "world"
 
-// let ele2 = document.querySelector("#demo")
+// let ele2 = document.querySelector("p")
+// let ele2 = document.querySelectorAll(".para")
 
-// ele2.innerHTML = "Hello world, how are you?"
+// console.log(ele2);
+
+// ele2[1].innerHTML = "Hello world, how are you?"
 
 // Create Elements:
 
-    // let newele = document.createElement("ul");
-    // newele.setAttribute("id", "header");
-    // document.body.append(newele);
+// let newele = document.createElement("ul");
+// newele.setAttribute("class", "header");
+// document.body.append(newele);
 
-    // let listItems = document.createElement("li");
-    // listItems.innerText = "Sportz";
-    // newele.appendChild(listItems);
+// let listItems = document.createElement("li");
+// listItems.innerText = "Sportz";
+// newele.appendChild(listItems);
 
-    // let listItems1 = document.createElement("li");
-    // listItems1.innerText = "Music";
-    // newele.appendChild(listItems1);
+// let listItems1 = document.createElement("li");
+// listItems1.innerText = "Music";
+// newele.appendChild(listItems1);
+
+// let olele = document.createElement("ol");
+// olele.setAttribute("class", "header");
+// document.body.append(olele);
+
+// let ollistItems = document.createElement("li");
+// ollistItems.innerText = "Sportz";
+// olele.appendChild(ollistItems);
+
+// let ollistItems1 = document.createElement("li");
+// ollistItems1.innerText = "Music";
+// olele.appendChild(ollistItems1);
 
 // Event Listeners
 
-let bankBalance = 0
-let temp = 0
+// let bankBalance = 0;
+// let temp = 0;
 
-function monitor(event){
-    temp = Number(event.target.value);
-}
+// function userInput(event) {
+//   temp = Number(event.target.value);
+// }
 
-function deposite(){
-    bankBalance += temp
+// function deposite() {
+//   bankBalance += temp;
 
-    console.log("Bank Balance: " + bankBalance);
-}
+//   let ele = document.getElementById("display")
+  
+//   ele.innerText = bankBalance;
+// }
 
-function withdraw(){
-    bankBalance -= temp;
+// function withdraw() {
+//   bankBalance -= temp;
 
-    console.log("Bank Balance: " + bankBalance);
-}
+//   let ele = document.getElementById("display")
+  
+//   ele.innerText = bankBalance;
+// }
